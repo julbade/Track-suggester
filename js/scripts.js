@@ -12,8 +12,14 @@ event.preventDefault()
     $(".address").text(addressInput);
     $("#frontpage").hide();
     $("#backpage").show();
+});
+
+$("#goback").click(function(event) {
+
+  $("#frontpage").show();
+  $("#backpage").hide();
 
 
+});
 
-  });
 });

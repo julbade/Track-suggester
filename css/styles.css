@@ -17,3 +17,13 @@ img {
   width: 200px;
   height: 200px;
 }
+
+.author {
+  text-align: right;
+  color: blue;
+  margin-right: auto;
+
+}
+ body {
+   background-image: url("beach.jpg");
+ }
