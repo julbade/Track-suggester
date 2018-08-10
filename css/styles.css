@@ -20,7 +20,7 @@
 
 .author {
   text-align: right;
-  color: blue;
+  color: yellow;
   margin-right: auto;
 
 }
@@ -50,6 +50,7 @@
 body {
   background-image: url(../img/beach.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   overflow: auto;
+  min-height: 800px
 }

@@ -46,5 +46,11 @@ $("#submit").click(function(event) {
     else if (QuestionOne === "red") {
       alert("you can do Ruby!");
     }
+    else if (QuestionOne === "orange") {
+      alert("you can do PHP!");
+    }
+    else if (QuestionOne === "white") {
+      alert("Click the link below!");
+    }
   });
 });
