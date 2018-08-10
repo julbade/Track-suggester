@@ -50,7 +50,7 @@ $("#submit").click(function(event) {
       alert("you can do PHP!");
     }
     else if (QuestionOne === "white") {
-      alert("Click the link below!");
+      alert("Click the link below for an awesome school!");
     }
   });
 });
