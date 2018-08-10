@@ -56,6 +56,15 @@
   margin-left: auto;
 }
 
+#img5 {
+  height: 40%;
+  width: 40%;
+  float: left;
+  display: block;
+  overflow: auto;
+  margin-left: auto;
+}
+
 body {
   background-image: url(../img/program.jpg);
   background-repeat: no-repeat;
