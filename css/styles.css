@@ -13,7 +13,7 @@
 
 
 
-img {
+#img1, #img2, #img3 {
   width: 200px;
   height: 200px;
 }
@@ -22,5 +22,26 @@ img {
   text-align: right;
   color: blue;
   margin-right: auto;
+
+}
+
+#next {
+  float: right;
+}
+
+img {
+  height: 50%;
+  width: 50%;
+  float: right;
+  display: block;
+  overflow: auto;
+}
+
+body {
+  background-image: url(../img/beach.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: auto;
+
 
 }

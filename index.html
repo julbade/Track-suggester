@@ -7,7 +7,7 @@
     <script src="js/scripts.js"></script>
     <title>Track Suggester</title>
   </head>
-  <body background="img/beach.jpg">
+  <body>
     <div class="container">
      <div id="frontpage">
       <div class="jumbotron">
@@ -18,7 +18,7 @@
         <h4>Please fill out the form:</h4>
       <div id="infos">
         <form>
-          <div class="shoedetails">
+          <div class="tracks">
           <div class="form-group">
             <label for="firstname">First Name:</label>
             <input id="firstname" class="form-control" type="text">
@@ -46,7 +46,7 @@
          <div class="panel panel-info">
            <h2 class="box">Java</h2>
              <div class="panel-body">
-               <img src="img/java.png">
+               <img src="img/java.png" id="img1">
                <p>Java is arguably the most popular programming language today.
                It's used for everything from web applications to backend services to mobile applications to embedded systems.
                Students who learn Java programming will be able to create dynamic web applications,
@@ -58,7 +58,7 @@
            <div class="panel panel-info">
              <h2 class="box">C#</h2>
              <div class="panel-body">
-               <img src="img/cimage.png">
+               <img src="img/cimage.png" id="img2">
                <p>The C# ("C sharp") programming language is most commonly used with the .NET framework.
                  Students who are well-versed in C# programming can use it to create client applications,
                  database applications, distributed components, and much more.
@@ -72,7 +72,7 @@
           <div class="panel panel-info">
             <h2 class="box">Ruby</h2>
             <div class="panel-body">
-              <img src="img/ruby.png">
+              <img src="img/ruby.png" id="img3">
               <p>Ruby is a programming language focused on simplicity and productivity.
                 It has an elegant syntax that is natural to read and easy to write.
                 The Ruby programming language is most commonly used with the Ruby on Rails framework.
@@ -83,19 +83,19 @@
         </div>
         <button type="click" id="next" class="btn btn-primary">Next</button>
       </div>
-       </div>
-       <!-- <button type="click" id="goback" class="btn btn-primary">Go Back</button> -->
-     </div>
+    </div>
 
      <div id="lastpage">
+       <h2>Here are some questions for you</h2>
 
+       <img src="img/programming.jpg">
 
-            <form id="go">
-               <p>Pick a color:</p>
+             <form id="go">
+               <p>Pick the answer of your choice!:</p>
                <div class="radio">
                    <label>
                      <input type="radio" name="choice" value="violet">
-                     Violet
+                     Do you like the idea of working for a larger company on business software?
                    </label>
                  </div>
                  <div class="radio">
@@ -116,7 +116,7 @@
              </form>
                 <button type="click" id="goback" class="btn btn-primary">Go Back</button>
 
-              </div>
+      </div>
 
 
 
