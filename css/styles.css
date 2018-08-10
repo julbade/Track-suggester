@@ -24,17 +24,27 @@
   margin-right: auto;
 
 }
+#goback {
+  margin-top: 30em;
+}
+
+.clickable {
+  text-align: right;
+  font-weight: bold;
+  color: red;
+}
 
 #next {
   float: right;
 }
 
-img {
-  height: 50%;
-  width: 50%;
+#img4 {
+  height: 40%;
+  width: 40%;
   float: right;
   display: block;
   overflow: auto;
+  margin-left: auto;
 }
 
 body {
@@ -42,6 +52,4 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   overflow: auto;
-
-
 }
