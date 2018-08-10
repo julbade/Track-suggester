@@ -1,22 +1,19 @@
 $(document).ready(function() {
-
-  $("#infos").submit(function(event)  {
-
+$("#infos").submit(function(event)  {
+event.preventDefault()
   var firstnameInput = $("input#firstname").val();
+  var lastnameInput = $("input#lastname").val();
   var addressInput = $("input#address").val();
-  var shoesInput = $("input#shoes").val();
-  var sizeInput = $("input#size").val();
 
 
 
     $(".firstname").text(firstnameInput);
+    $(".lastname").text(lastnameInput);
     $(".address").text(addressInput);
-    $(".shoes").text(shoesInput);
-    $(".size").text(sizeInput);
     $("#frontpage").hide();
+    $("#backpage").show();
 
 
-    event.preventDefault();
 
   });
 });
