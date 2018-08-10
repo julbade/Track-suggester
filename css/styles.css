@@ -28,10 +28,19 @@
   margin-top: 30em;
 }
 
+
 .clickable {
   text-align: right;
   font-weight: bold;
-  color: red;
+  color: yellow;
+}
+
+#go, #text, #text2{
+  color: yellow;
+}
+
+#submit {
+  color: black;
 }
 
 #next {
@@ -48,9 +57,10 @@
 }
 
 body {
-  background-image: url(../img/beach.jpg);
+  background-image: url(../img/program.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   overflow: auto;
-  min-height: 800px
+  min-height: 800px;
+
 }
