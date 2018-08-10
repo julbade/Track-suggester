@@ -15,11 +15,36 @@ event.preventDefault()
 });
 
 $("#goback").click(function(event) {
-
+  event.preventDefault()
   $("#frontpage").show();
   $("#backpage").hide();
+  $("#lastpage").hide()
 
 
 });
 
+
+$("#next").click(function(event) {
+  event.preventDefault()
+
+  $("#frontpage").hide();
+  $("#backpage").hide();
+  $("#lastpage").show();
+
+});
+
+
+$("#submit").click(function(event) {
+    event.preventDefault();
+    var QuestionOne = $("input:radio[name=choice]:checked").val();
+    if (QuestionOne === "violet") {
+      alert("you can do C sharp!");
+    }
+    else if (QuestionOne === "blue") {
+      alert("you can do Java!");
+    }
+    else if (QuestionOne === "red") {
+      alert("you can do Ruby!");
+    }
+  });
 });

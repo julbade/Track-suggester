@@ -1,4 +1,4 @@
-#backpage {
+#backpage, #lastpage {
   display: none;
 }
 .box {margin: 0.5em;
